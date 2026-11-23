@@ -1,0 +1,57 @@
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven build outputs
+target/
+.mvn/timing.properties
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# PostgreSQL backups and dumps
+*.dump
+*.backup
+*.sql.gz
+
+# Generated datasets
+data/generated/
+data/synthetic/
+
+# JavaFX packaging outputs
+dist/
+build/
